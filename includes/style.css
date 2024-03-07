@@ -1,0 +1,607 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.logo {
+    display: block;
+}
+
+@media screen and (max-width: 426px) {
+    .logo {
+        display: none;
+    }
+}
+
+.bg-gray {
+	background-color: #4d4d4d;
+}
+
+.usertable {
+	margin: 10px;
+}
+
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+
+.profile-img img{
+    width: 300px; /* width of container */
+    height: 200px; /* height of container */
+    object-fit: cover;
+    object-position: 20% 30%;
+}
+
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 4px;
+    width: 71%;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 15px;
+    color: #6c757d;
+    cursor: pointer;
+    float: right; 
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+
+.profile-tab td {
+    font-size: 20px;
+    font-weight: 600;
+    height: 40px;
+    width: 350px;
+}
+
+.dbinfo {
+    color: #0066ff;
+}
+
+.editpostable {
+    position: absolute;
+    top: -60px;
+    left: 30px;
+}
+
+.editposlog {
+    position: absolute;
+    top: -60px;
+    left: 30px;
+   /* margin-bottom: 40px;*/
+}
+
+@media screen and (max-width: 768px) {
+    .editpostable {
+        position: relative;
+        top: 0px;
+        margin-bottom: 50px;
+    }
+
+    .profile-edit-btn{
+    position: relative;
+    right: 50px;
+    }
+
+    .editposlog {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    }
+}
+
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+    color: #0062cc;
+}
+
+.container-fluid {
+    max-width: 95%;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.volvologo {
+    height: 15%; 
+    width: 100%; 
+    position: absolute;
+    bottom: 30%;
+}
+
+
+/* INDEX IMAGINI */
+.editpos {
+    position: absolute;
+    right: -15px;
+    border-radius: 4px;
+}
+
+.editpos2 {
+    position: absolute;
+    top: 70px;
+    left: -17px;
+}
+
+.editpos3 {
+    position: absolute;
+    top: 70px;
+    right: -15px;
+}
+
+.editpos4 {
+    position: absolute;
+    top: 100px;
+    right: 17px;
+}
+
+.edittextboxright {
+    padding-right: 60px;
+}
+
+.edittextboxleft {
+    padding-left: 60px;
+}
+
+@media screen and (max-width: 768px) {
+    .editpos {
+        position: relative;
+        left :0px;
+    }
+    .editpos2 {
+        position: relative;
+        top:  -10px;
+        left:  0px;
+    }
+    .editpos3 {
+        position: relative;
+        left:  0px;
+        top: -10px;
+    }
+    .editpos4 {
+        height: 200px;
+        position: relative;
+        top:  0px;
+        right: 0px;
+    }
+
+    .edittextboxright {
+        padding-right: 0px;
+    }
+
+    .edittextboxleft {
+        padding-left: 15px;
+    }
+}
+
+/* INDEX IMAGINI END*/
+
+/* INOVATION PAGE */
+    
+.childseat {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+.integratedboosterseat {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+.sideimpactprotection {
+    position: absolute;
+    bottom: 50px;
+    right: 15px;
+    border-radius: 4px;
+}
+
+.whiplashprotection {
+    position: absolute;
+    bottom: 70px;
+    border-radius: 4px;
+}
+
+.inflatablecurtain {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    border-radius: 4px;
+}
+
+.rollover{
+    position: absolute;
+    bottom: 80px;
+    border-radius: 4px;
+}
+
+.blis {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    border-radius: 4px;
+}
+
+.citysafety {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+.pedestrian {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    border-radius: 4px;
+}
+
+.runoffroadprotection {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+.cloud {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    border-radius: 4px;
+}
+
+.oncomingmitigationbybreaking {
+    position: absolute;
+    bottom: 10px;
+    border-radius: 4px;
+}
+
+.xc40onabridge {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    border-radius: 4px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .childseat {
+        position: relative;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .integratedboosterseat {
+        position: relative;
+        bottom: 10px;
+        border-radius: 4px;
+    }
+
+    .sideimpactprotection {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 4px;
+    }
+
+    .whiplashprotection {
+        position: relative;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .inflatablecurtain {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 4px;
+    }
+
+    .rollover{
+        position: relative;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .blis {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 4px;
+    }
+
+    .citysafety {
+        position: relative;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .pedestrian {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 4px;
+    }
+
+    .runoffroadprotection {
+        position: relative;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .cloud {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 4px;
+    }
+
+    .oncomingmitigationbybreaking {
+        position: relative;
+        bottom: 0px;
+        border-radius: 4px;
+    }
+
+    .xc40onabridge {
+        position: relative;
+        bottom: 0px;
+        right: 0px;
+        border-radius: 4px;
+    }
+}
+
+/* INOVATION PAGE */
+
+/* HISTORY PAGE */
+    
+    .fondatorvolvo {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        border-radius: 4px;
+    }
+
+    .skf {
+        position: absolute;
+        bottom: 100px;
+        border-radius: 4px;
+    }
+
+    .truck1st {
+        position: absolute;
+        bottom: 10px;
+        right: 20px;
+        border-radius: 4px;
+    }
+
+    .globetrotter {
+        position: absolute;
+        bottom: 30px;
+        border-radius: 4px;
+    }
+@media screen and (max-width: 768px) {
+    .skf {
+        position: relative;
+        bottom: 0px;
+    }
+}
+
+/* HISTORY PAGE */
+
+@media screen and (max-width: 768px) {
+    .volvologo {
+        padding-top: 40px;
+        position: relative;
+        height: 100%; 
+        width: 100%; 
+    }
+}
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+.center404error {
+    height: 200px;
+    width: 600px;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -300px;
+}
+
+.profilestatusimg {
+    width: 100%; /* width of container */
+    height: 100%; /* height of container */
+    object-fit: cover;
+    object-position: 70% 30%;
+}
+
+.profilestatusborder {
+    height: 100px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.profilestatusborderhome {
+    height: 80px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+    position: absolute;
+    left: 6px;
+    display: block;
+}
+
+.profilestatusborderhomereply {
+    height: 60px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 3px;
+    position: absolute;
+    left: 6px;
+}
+
+@media screen AND (max-width: 425px) {
+    .profilestatusborderhome {
+        display: none;
+    }
+
+    .profilestatusborderhomereply {
+        display: none;
+    }
+}
+
+@media screen AND (width: 1024px) {
+    .profilestatusborderhome {
+        display: none;
+    }
+
+    .profilestatusborderhomereply {
+        display: none;
+    }
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.resizeposimg img {
+    max-height: 602px !important;
+    max-width: 1070px !important;
+}
+
+@media screen and (max-width: 767px) {
+    .resizeposimg img {
+    height: 602px !important;
+    width: 1070px !important;
+}
+}
+
+.radius-left-bottom-top {
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+
+}
+
+@media screen and (max-width: 767px) {
+    .radius-left-bottom-top {
+        border-top-left-radius: 3px !important;
+        border-bottom-left-radius: 3px !important;
+        position: absolute;
+        left: 60%;
+        right: 50%;
+        margin-top: 10px;
+    }
+}
+
+.margin-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.opacity-background {
+    background-color: rgb(0, 0, 0, 0.5);
+}
